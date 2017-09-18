@@ -1,0 +1,9 @@
+- key: nginx-request-body
+  title: "nginx-request-body"
+  description: >
+    nginx-request-body Module
+  fields:
+    - name: nginx-request-body
+      type: group
+      description: >
+      fields:
