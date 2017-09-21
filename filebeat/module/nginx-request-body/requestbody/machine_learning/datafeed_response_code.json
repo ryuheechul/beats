@@ -7,9 +7,9 @@
     ],
     "query": {
       "bool": {
-        "filter": [  
-          { "term":  { "fileset.module": "nginx" } },
-          { "term":  { "fileset.name": "access" } }
+        "filter": [
+          { "term":  { "fileset.module": "nginx-request-body" } },
+          { "term":  { "fileset.name": "requestbody" } }
         ]
       }
     }

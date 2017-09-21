@@ -5,7 +5,7 @@ var:
     default:
       - /var/log/nginx/requestbody.log*
     os.darwin:
-      - /var/log/nginx/requestbody.log*
+      - /usr/local/var/log/nginx/requestbody.log*
     os.windows:
       - c:/programdata/nginx/logs/*requestbody.log*
 
